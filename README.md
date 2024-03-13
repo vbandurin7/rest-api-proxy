@@ -1,6 +1,6 @@
 # rest-api-proxy
 
-### Практическое задание: реализовать rest api для перенаправления запросов на _https://jsonplaceholder.typicode.com_\
+### Практическое задание: реализовать rest api для перенаправления запросов на _https://jsonplaceholder.typicode.com_
 
 ### Запуск:
 
