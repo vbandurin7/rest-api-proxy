@@ -106,7 +106,7 @@ public class UserService extends AbstractService<UserResponse> {
         // For convenience purposes
         setupUser("admin", Role.Name.ROLE_ADMIN);
         setupUser("poster", Role.Name.ROLE_POSTS_EDITOR);
-        setupUser("pviewer", Role.Name.ROLE_USERS_VIEWER);
+        setupUser("uviewer", Role.Name.ROLE_USERS_VIEWER);
     }
 
     private void setupUser(String username, Role.Name... roles) {

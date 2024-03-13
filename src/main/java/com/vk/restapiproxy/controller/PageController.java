@@ -23,7 +23,7 @@ public class PageController {
         return "RegisterForm";
     }
 
-    @RequestMapping(value = {"/home", ""}, method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = {"/home"}, method = {RequestMethod.GET, RequestMethod.POST})
     public String homePage() {
         return "HomePage";
     }

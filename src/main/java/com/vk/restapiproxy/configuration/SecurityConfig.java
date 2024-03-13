@@ -57,7 +57,7 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.PUT, "/api/albums", "/api/albums/{id}", "/api/albums?id={id}").hasAnyRole("ALBUMS_EDITOR", "ADMIN")
                         .requestMatchers(HttpMethod.POST, "/api/albums", "/api/albums/{id}", "/api/albums?id={id}").hasAnyRole("ALBUMS_EDITOR", "ADMIN")
                         .requestMatchers(HttpMethod.DELETE, "/api/albums", "/api/albums/{id}", "/api/albums?id={id}").hasAnyRole("ALBUMS_EDITOR", "ADMIN")
-                        .requestMatchers("/**").denyAll()
+                        .requestMatchers("/**").permitAll()
                 )
                 .formLogin((formLogin) ->
                         formLogin

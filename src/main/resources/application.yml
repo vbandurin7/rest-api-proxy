@@ -18,7 +18,7 @@ spring:
     serialization:
       indent-output: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/db
+    url: jdbc:postgresql://localhost:5432/postgres
     username: root
     password: root
   application:
