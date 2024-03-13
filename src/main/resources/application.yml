@@ -1,0 +1,25 @@
+app:
+  base-url: https://jsonplaceholder.typicode.com
+
+spring:
+  mvc:
+    view:
+      suffix: .html
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        show_sql: true
+#        use_sql_comments: true
+#        format_sql: true
+  jackson:
+    serialization:
+      indent-output: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db
+    username: root
+    password: root
+  application:
+    name: rest-proxy-api
